@@ -1,0 +1,138 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'PT Serif', serif;
+    background: rgb(255, 255, 255);
+    background-image: url("https://source.unsplash.com/2000x1100/?landscapes");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 120%;
+}
+
+.cardLayout {
+    display: flex;
+}
+
+.card {
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10% 40% 0% 40%;
+}
+
+.search button {
+    margin: .5em;
+    border-radius: 50%;
+    border: none;
+    height: 3em;
+    width: 3em;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+}
+
+.searchBar {
+    border: none;
+    outline: none;
+    padding: .4em 1em;
+    border-radius: 23px;
+    background: #3e3939;
+    color: rgb(255, 255, 255);
+    font-family: inherit;
+    font-size: 105%;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    margin: auto;
+    width: 100%;
+    
+    
+}
+
+button:hover {
+    background: gold;
+}
+
+.temp {
+    margin: 0;
+    margin-bottom: 0.4em;
+}
+
+.description {
+    text-transform: capitalize;
+}
+
+.layoutIconDesc {
+    display: flex;
+    align-items: center;
+
+}
+.content {
+    visibility: hidden;
+    margin-bottom: 5%;
+    margin: auto;
+    width: 12%;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.content:hover {
+    visibility: visible;
+    
+}
+
+li:hover {
+    background-color: rgb(241, 181, 255);
+    color: black;
+    width: 250px;
+    padding-right: 80px;
+}
+  
+.search:hover ~ .content {
+    visibility: visible;
+    
+}
+
+li {
+    border: none;
+    background-color: gray;
+    border-style: none;
+    list-style-type:none;
+    display: inline-block;
+    
+    margin: 8px;
+
+}
+
+.date {
+    font-size: 2rem;
+}
+
+.date-2 {
+    font-size: 2rem;
+}
+
+.date-3 {
+    font-size: 2rem;
+}
+.date-4 {
+    font-size: 2rem;
+}
+.date-5 {
+    font-size: 2rem;
+}
+.date-6 {
+    font-size: 2rem;
+}
