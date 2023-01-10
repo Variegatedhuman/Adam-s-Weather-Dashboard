@@ -90,7 +90,7 @@ button:hover {
 
 .content:hover {
     visibility: visible;
-    
+   
 }
 
 li:hover {
@@ -98,10 +98,12 @@ li:hover {
     color: black;
     width: 250px;
     padding-right: 80px;
+    
 }
   
 .search:hover ~ .content {
     visibility: visible;
+    
     
 }
 

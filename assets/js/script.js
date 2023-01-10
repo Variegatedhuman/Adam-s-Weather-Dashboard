@@ -157,7 +157,7 @@ function recentCity () {
                 } else {
                     allCities = JSON.parse(allCities);
                 }
-                if(allCities.indexOf(currentCity) !== -1){
+                if(allCities.indexOf(currentCity.userSearch) !== -1){
                     return
                 }
                 allCities.push(currentCity);
@@ -170,6 +170,7 @@ function recentCity () {
             allCities = JSON.parse(allCities);
         
             if (allCities !== null) {
+                document.querySelector(".content").innerHTML = "";
         
                 for (let i = 0; i < allCities.length; i++) {
         
