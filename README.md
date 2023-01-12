@@ -27,11 +27,9 @@ THEN I am again presented with current and future conditions for that city
 When the user searched for a city then they are presented with current and future weather conditions, up to 5 days in the future
 
 When the user views current weather for a city they are presented with the city name, the date, an icon representation of the weather, the temperature, the humidity,
-
 and the wind speed
 
 Following an initial search, when the user hovers over the search bar they are presented with a dropdown menu of past searches and are able to click on those searches
-
 to retrieve information on weather for those cities
 
 ## Screenshot of deployed site
