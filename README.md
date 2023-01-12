@@ -42,6 +42,7 @@ https://variegatedhuman.github.io/Adam-s-Weather-Dashboard/
 
 ## Authors and acknowledgment
 Adam Michell with great help from my tutor Erik Hirsche and Matthew Calimbras
+
 React Icons
 
 ## License
